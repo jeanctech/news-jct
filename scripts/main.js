@@ -1,29 +1,28 @@
-import "../styles/style.css";
-import js from "../public/assets/js.svg";
-import vite from "/public/vite.svg";
-import { setupCounter } from "../scripts/counter.js";
+import '../styles/style.css';
+import Js from '../public/assets/js.svg';
+import Vite from '../public/vite.svg';
+import { setupCounter } from "./counter.js";
 
 document.querySelector("#app").innerHTML = `
-<div id="app">
-<div id="app-container">
-  <h1 id="app-title">Sites</h1>
-  <a href="https://vitejs.dev" target="_blank">
-    <img src="${vite}" id="img" alt="Vite logo" width={50} />
+<div id="app" >
+<div id="app-container" >
+  <h1 id="app-title">Templates</h1>
+  <a href="https://vitejs.dev" target="_blank" >
+    <img src="${Vite}" id="img" alt="Vite-Logo" width="75" />
   </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="${js}" id"img" alt="Preact logo" width={50} />
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" >
+    <img src="${Js}" id"img" alt="Js-Logo" width="60" />
   </a>
 </div>
-<div id="app-card">
-<h1>Hello Vite!</h1>
-<div class="card">
+<div id="app-card" >
+<div class="card" >
   <button id="counter" type="button"></button>
 </div>
-  <p>
-    Edit <code>./scripts/main.js</code> and save to test Hmr
+  <p id="p" >
+    Edit <code>./Scripts/Main.Js</code> and save to test Hmr
   </p>
 </div>
-<p id="read">
+<p id="read" >
   Click on the Vite and Js logos to learn more
 </p>
   </div>
