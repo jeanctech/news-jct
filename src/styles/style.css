@@ -40,22 +40,22 @@ h1 {
   padding: 2rem;
   text-align: center;
 }
-.logo-vite {
+#logo-vite {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo-vite:hover {
+#logo-vite:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo-js {
+#logo-js {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo-js:hover {
+#logo-js:hover {
   filter: drop-shadow(0 0 2em #f7df1eaa);
 }
 .card {
