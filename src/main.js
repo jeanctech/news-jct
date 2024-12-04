@@ -9,7 +9,7 @@ document.querySelector("#app").innerHTML = `
         <div id="app-container"
           class="m-5 p-5 flex flex-row justify-start items-center" >
           <h1 classe="m-2.5 p-2.5 text-2.5xl font-semibold" >
-            Vanilla.js
+            Vanilla
           </h1>
           <a href="https://vitejs.dev" target="_blank">
           <img src="${vite}" id="logo-vite" alt="Logo-Vite" />
